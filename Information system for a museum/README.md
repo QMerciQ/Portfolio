@@ -5,7 +5,7 @@ Used tools include Oracle Data Modeler and SQL Developer.
 
 Content:
 
-1. Documentation -
+1. Documentation 
    
   a) Analysis
   
