@@ -4,8 +4,11 @@ This is just part of the application code to demonstrate working with Thymeleaf.
 
 Redirection between pages according to navigation is handled by the controller: HomeWebController.
 
+<br>
+
 It contains only the first part of the page that is displayed when you start the application, sign in and sing up.
 
+<br>
 
 ### Getting started
 
