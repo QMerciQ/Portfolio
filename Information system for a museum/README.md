@@ -5,6 +5,7 @@ This folder contains a relational database project.
 
 Used tools include Oracle Data Modeler and SQL Developer.
 
+<br>
 
 ## Content:
 
