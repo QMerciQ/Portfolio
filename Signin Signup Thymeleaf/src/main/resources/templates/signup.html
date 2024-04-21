@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{/layouts/mainLayout}">
+<head>
+    <title>Lead Link - sign up</title>
+</head>
+<body>
+
+
+
+            <section layout:fragment="content">
+
+                <div class="col" style="display: flex; justify-content: center; align-items: center; text-align: left">
+                    <form style="width: 80%">
+                        <h2 style="padding-bottom: 20px">Registrace</h2>
+
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">Jméno</label>
+                            <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Příjmení</label>
+                            <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Heslo</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="background-color: black; margin-top: 20px;margin-bottom: 20px" >Přihlásit se</button>
+                    </form>
+                </div>
+            </section>
+
+
+</body>
+</html>

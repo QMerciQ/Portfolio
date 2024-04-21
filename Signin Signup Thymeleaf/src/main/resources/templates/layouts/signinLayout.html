@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title layout:title-pattern="$CONTENT_TITLE"></title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" th:href="@{/images/logo/cerne.svg}">
+    <link rel="stylesheet" type="text/css" media="all" th:href="@{/css/styles.css}"/>
+
+
+</head>
+<body>
+
+<header th:replace="~{/fragments/header :: header}"></header>
+
+
+
+
+<section>
+
+    <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+            <div class="col">
+                <img src="image/logo/logo2.svg" alt="logo">
+
+            </div>
+            <div class="col" style="display: flex; justify-content: center; align-items: center">
+                <div>
+                    <h1>Nalezněte své obchodní příležitosti a navážete silné vztahy se svými zákazníky.</h1>
+                    <h4 style="padding-top: 30px">Naše CRM aplikace vám poskytne nástroje potřebné k efektivnímu řízení vašich obchodních aktivit a dosažení úspěchu</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<script src="/webjars/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

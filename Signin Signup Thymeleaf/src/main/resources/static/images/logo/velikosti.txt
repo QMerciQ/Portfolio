@@ -1,0 +1,7 @@
+velikosti
+loga bez textu 250/250 bez okraje s okrajem 500/500 pixelů     500px = 132mm
+loga s textem 350/350 bez okraje s okrajem 500/500 pixelů
+
+texty
+250/50 px 
+12pt - písmo

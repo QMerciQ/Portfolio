@@ -1,0 +1,76 @@
+
+:root {
+    --color-A: #00DD43; /*z loga*/
+
+}
+
+
+
+@font-face {
+    font-family: Nunito, sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header{
+    /*k padding: 20px;
+    height: auto;
+    display: block;
+    justify-content: initial;
+    align-items: initial; k*/
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+body{
+    /*height: 100vh;
+    font-family: Nunito, sans-serif;
+    */
+
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section{ /*cele nove*/
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container img{
+    padding: 30px;
+}
+
+
+.nav-link{
+    color: black;
+}
+
+
+
+/*kvůli loginu*/
+
+@media screen and (max-width: 993px) {
+
+    img{
+        max-width: 520px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
+}

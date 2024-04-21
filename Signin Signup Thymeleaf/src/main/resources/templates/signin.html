@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{/layouts/mainLayout}">
+<head>
+    <title>Lead Link - sign in</title>
+</head>
+<body>
+
+            <section layout:fragment="content">
+                <div class="col" style="display: flex; justify-content: center; align-items: center; text-align: left">
+                    <form style="width: 80%">
+                        <h1 style="padding-bottom: 20px">Přihlášení</h1>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Heslo</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button id="login" type="submit" class="btn btn-primary" style="background-color: black; margin-top: 20px;margin-bottom: 20px" >Přihlásit se</button>
+                        <p>Nemáte účet? <a href="/signup" style="color: black">Založte si ho nyní!</a> </p>
+                    </form>
+                </div>
+            </section>
+
+</body>
+</html>
